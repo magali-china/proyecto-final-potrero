@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Gloria+Hallelujah&family=Ysabeau+SC:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Ysabeau+SC:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* navbar */
+.nav{
+    display:flex;
+}
+
+.navbar{
+    background-color: black;
+    font-family: 'Ysabeau SC', sans-serif;
+    text-decoration: black;
+    font-size: 1.4rem;
+    padding: 1em;
+}
+
+.nav-link{
+   margin-right: 2em; 
+}
+
+
+main{
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+
+/* home */
+
+.home-padre{
+    background-image: url(./imagenes/fondo-home.jpg);
+    background-size: cover;
+    background-position: center;
+    display:grid;
+    grid-template-columns: 1fr  ;
+    grid-template-rows: 1fr 1fr ;
+    justify-items: center;
+    align-items: center;
+}
+
+.h1-home{
+    font-size: 3.5em;
+    font-family: 'Ysabeau SC', sans-serif;
+    text-decoration: overline;
+}
+
+.p-home{
+    font-size: 2.2rem;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: bold;
+    margin: 3rem;
+    text-shadow: 2px 2px 2px white;
+    
+}
+
+
+/* que es */
+
+.que-es-padre{
+    background-image: url(./imagenes/que-es-fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity:0.9 ;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr ;   
+}
+
+.que-es-hijo{
+    color: black;
+    font-family: 'Ysabeau SC', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.titulos{
+    font-size: 3.0em;
+    text-decoration: overline;
+    padding: 2rem;  
+}
+
+.texto-index{
+    font-size: 1.5rem;
+    margin: 1rem;  
+    text-align: justify;
+    
+}
+
+/* quien soy */
+
+.quien-soy-padre{
+   background-image: url(./imagenes/quien-soy-fondo.jpg);
+   background-size: cover;
+   background-position: center;
+   display:grid;
+   grid-template-columns: 1fr 1fr ;
+   grid-template-rows: 1fr ;
+   justify-items: center;
+   align-items: center;
+}
+
+.quien-soy-hijo{
+    padding-top: 5em;
+    padding-bottom: 5em;
+    opacity: 0.8;   
+}
+
+.quien-soy-hijo-dos{
+    font-size: 1.2em;
+    color: white;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.h1-quien-soy{
+    text-decoration: overline;
+}
+
+/* blog */
+
+.blog-padre{
+    background-image: url(./imagenes/fondo-blog.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.h1-blog{
+    font-family: 'Ysabeau SC', sans-serif;
+    text-decoration: overline;
+    margin: 2rem;
+    font-size: 3rem;
+}
+
+.blog-hijo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+.card-img{
+    width: 100%;
+    height: 200px;
+}
+
+.card-body{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.card-title{
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: bold;
+    flex-grow: 1;
+    color: white;
+}
+
+.card-text{
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: start;
+    flex-grow: 1;
+    color: white;
+}
+
+.btn{
+    font-weight: bold;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+/* Contacto */
+
+.contacto-padre{
+    background-image: url(./imagenes/fondo-contacto.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+}
+
+.contacto-hijo{
+    color: white;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 2rem;
+    margin: 1rem;
+    padding-top: 6rem;
+}
+
+.contacto-hijo-dos{
+    padding: 3rem;
+}
+
+
+/* footer */
+.footer{
+    background-color: rgba(180, 107, 248, 0.379);
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.a-footer{
+    margin: 1em;
+}
